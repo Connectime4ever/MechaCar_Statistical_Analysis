@@ -24,15 +24,11 @@
 
 ![D13](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D13.png)
 
+According to the results in "Pr(>|t|)" colunm in the above image, the variables/coefficients that provide a non-random amount of variance to the mpg values in the dataset are the *vehicle length* and the *ground clearance*, as well as, the *intercept*. 
 
+The output also points out that this linear model could be improved. There are three independent variables which have no impact on MPG. Besides, being the intercept statistically significant also points out that there might  be other variables not included that could help to improve the predictive power of the model. 
 
-a short summary using a screenshot of the output from the linear regression, and address the following questions:
-
-
-
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Anyways, the multiple R-squared shows that around 71% of the variability of the MPG is explained by the model and there is sufficient evidence to reject the null hypothesis, so the slope is not zero. 
 
 ## T-Tests on Suspension Coils
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
