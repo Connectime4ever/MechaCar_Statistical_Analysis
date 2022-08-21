@@ -7,7 +7,7 @@
 + To run t-test on suspension coils.
 + To design a statistical study to compare the prototype performance versus other manufacturer vehicles performance. 
 
-#### Additionally a summary with the findings for each statistical analysis has been requested. 
+#### Additionally, a summary with explanations for each statistical analysis has been requested. 
 ---
 
 ## Linear Regression to Predict MPG
