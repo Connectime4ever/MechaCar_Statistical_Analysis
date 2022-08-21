@@ -8,9 +8,8 @@
 + To design a statistical study to compare the prototype performance versus other manufacturer vehicles performance. 
 
 #### Additionally a report with the explaination of the findings has been requested. 
+---
 
----
----
 ## Linear Regression to Predict MPG
 
 #### ***Dataframe:  MechaCar_Table***
