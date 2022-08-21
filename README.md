@@ -30,13 +30,27 @@ The output also points out that this linear model could be improved. There are t
 
 Anyways, the multiple R-squared shows that around 71% of the variability of the MPG is explained by the model and there is sufficient evidence to reject the null hypothesis, so the slope is not zero. 
 
-## T-Tests on Suspension Coils
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 ## Summary Statistics on Suspension Coils
+
+#### ***Dataframe:  Coil_Table***
+
+![D21](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D21.png)
+
+#### ***Dataframe: total_summary***
+![D22](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D22.png)
+
+#### ***Dataframe: lot_summary***
+![D23](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D23.png)
+
+
 a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+## T-Tests on Suspension Coils
+briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+There is a summary of the t-test results across all manufacturing lots and for each lot
 
 ## Study Design: MechaCar vs Competition
 
