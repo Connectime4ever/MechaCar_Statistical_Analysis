@@ -57,7 +57,7 @@ Assuming a significance level of 0.05, the t-test results across all manufacturi
 
 When looking at the individual t-results by lot. Lots 1 and 2 with p-values around 1 and 0.61, respectivelly confirm their means are statistically similar to the population mean. 
 
-In the case of Lot3, the p-value obtained in the t-test of approximatelly 0.04, means that there is enough evidence to reject the null hypothesis and state that the its mean and the population's are not statistically similar. 
+In the case of Lot3, the p-value obtained in the t-test of approximatelly 0.04, means that there is enough evidence to reject the null hypothesis and state that Lot3 mean and the population mean are not statistically similar. 
 
 
 ## Study Design: MechaCar vs Competition
