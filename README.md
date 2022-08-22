@@ -43,11 +43,8 @@ Anyways, the multiple R-squared shows that around 71% of the variability of the 
 #### ***Dataframe: lot_summary***
 ![D23](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D23.png)
 
-As it can be appreciated the design specifications for the MechaCar suspension coils of a variance of the suspension not exceeding 100 pound per square inch is met for all manufacturing lots in total with a total variance of 62.29 pounds per square inch. 
+The design specifications for the MechaCar suspension coils of a variance of the suspension (***not exceeding 100 pound per square inch***) is met for all manufacturing lots in total, showing a total variance of 62.29 pounds per square inch. 
 However, looking into each individual lot, lot3 does not meet this design especification, showing a variance of 170.29 pounds per square inch. 
-
-
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
 
@@ -56,11 +53,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![D33](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D33.png)
 ![D34](https://github.com/Connectime4ever/MechaCar_Statistical_Analysis/blob/main/D34.png)
 
-Assuming a significance level of 0.05 the t-test results across all manufacturing lots, the p-value of approximately 0.06 is just very slightly above it. Meaning that the overall mean of the lots and the population mean could be still considered statistically similar. 
+Assuming a significance level of 0.05, the t-test results across all manufacturing lots, show among other metrics, a p-value of approximately 0.06, which is just slightly above it. For this reason, the overall mean of the lots and the population mean could be still considered statistically similar. 
 
-When looking at the individual t-results by lot. Lots 1 and 2 with p-values around 1 and 0.61, respectivelly proved their means are statistically similar to the population mean. 
+When looking at the individual t-results by lot. Lots 1 and 2 with p-values around 1 and 0.61, respectivelly confirm their means are statistically similar to the population mean. 
 
-In the case of Lot3 the p-value of approximatelly 0.04 shows that there is enough evidence to reject the null hypothesis and state that the its mean and the population's are not statistically similar. 
+In the case of Lot3, the p-value obtained in the t-test of approximatelly 0.04, means that there is enough evidence to reject the null hypothesis and state that the its mean and the population's are not statistically similar. 
 
 
 ## Study Design: MechaCar vs Competition
