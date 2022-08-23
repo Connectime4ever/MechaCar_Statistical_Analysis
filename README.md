@@ -67,13 +67,10 @@ In an additional statistical analysis from the customer standpoint, the metrics 
 Null hypothesis:  If horsepower and highway fuel efficiency are not related to maintenance cost, then if they increased the maintenance cost will not show a reduction.
 
 To perform this analysis a multiple linear regression model will be used, and the steps below will be followed.
-
--          To evaluate each independent variable (horsepower and highway fuel efficiency) to determine if there is a significant relationship of each of them with the dependent variable (maintenance costs).   
-
--          To evaluate the r-squared value to assess if the model is statistically valid to predict the dependent variable
-
--          To evaluate the contribution of each independent variable/coefficient by looking at each p-value.
++ To evaluate each independent variable (horsepower and highway fuel efficiency) to determine if there is a significant relationship of each of them with the dependent variable (maintenance costs).   
++ To evaluate the r-squared value to assess if the model is statistically valid to predict the dependent variable.
++ To evaluate the contribution of each independent variable/coefficient by looking at each p-value.
 
 Samples from historical data of these metrics for the past 3 years will be used to perform the analysis of the competitors. 
 
-A comparative analysis would be done using samples of MechaCar production lots. 
+A comparative analysis would be done using samples of MechaCar production lots performing a t-test.  
