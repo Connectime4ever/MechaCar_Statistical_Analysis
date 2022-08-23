@@ -62,9 +62,18 @@ In the case of Lot3, the p-value obtained in the t-test of approximatelly 0.04, 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+In an additional statistical analysis from the customer standpoint, the metrics selected are horsepower and high fuel efficiency to evaluate their impact on maintenance cost. 
+
+Null hypothesis:  If horsepower and highway fuel efficiency are not related to maintenance cost, then if they increased the maintenance cost will not show a reduction.
+
+To perform this analysis a multiple linear regression model will be used, and the steps below will be followed.
+
+-          To evaluate each independent variable (horsepower and highway fuel efficiency) to determine if there is a significant relationship of each of them with the dependent variable (maintenance costs).   
+
+-          To evaluate the r-squared value to assess if the model is statistically valid to predict the dependent variable
+
+-          To evaluate the contribution of each independent variable/coefficient by looking at each p-value.
+
+Samples from historical data of these metrics for the past 3 years will be used to perform the analysis of the competitors. 
+
+A comparative analysis would be done using samples of MechaCar production lots. 
